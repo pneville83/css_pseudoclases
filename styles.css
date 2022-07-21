@@ -1,0 +1,74 @@
+a {
+    display: block;
+    background-color: transparent;
+   height: 20px;
+   width: 90px;
+   
+}
+
+a:hover {
+    background-color: red;
+}
+
+.master {
+    background-color: transparent;
+    display: block;
+    width: 250px;
+    
+}
+
+.master:hover {
+    background-color: red;
+}
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.parrafo :first-child {
+    background-color: red;
+    width: 140px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+form :focus {
+    background-color: red;
+}
+
+.parrafo2 {
+    width: 300px;
+}
+
+ .parrafo2 ::first-line {
+    background-color: red;
+}
+
+.parrafo3 {
+    width: 300px;
+}
+
+.parrafo3 ::first-letter {
+    background-color: red;
+}
+
+
+.parrafo4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 ::before {
+    content: url(smiley.gif);
+}
+
+.box1 ::after {
+    content: url(smiley.gif);
+}
